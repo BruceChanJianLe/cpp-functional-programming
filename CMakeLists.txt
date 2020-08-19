@@ -25,3 +25,6 @@ add_executable(fibonacci src/fibonacci.cpp)
 add_executable(rxcpp src/rxcpp.cpp)
 
 add_compile_options(-Wall -Wextra -pedantic)
+# target_compile_options(rxcpp PRIVATE -Wall)
+# https://cmake.org/cmake/help/latest/command/add_compile_options.html
+# https://stackoverflow.com/questions/2368811/how-to-set-warning-level-in-cmake/3818084
